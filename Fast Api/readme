@@ -1,0 +1,10 @@
+Installation :
+pip3 install fastapi
+pip3 install uvicorn
+
+run : 
+uvicorn main:app --reload
+# uvicorn : Server, main : filename, app : name of fastapi, --reload : changes saved in the script will be automatically updated on the server.
+
+/docs
+# It replicates postman.
